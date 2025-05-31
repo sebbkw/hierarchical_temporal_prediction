@@ -1,4 +1,0 @@
-python3 run_virtual_physiology.py
-python3 run_gabor_fitting.py
-python3 run_plaid.py
-python3 run_modulation_ratio_fitting.py

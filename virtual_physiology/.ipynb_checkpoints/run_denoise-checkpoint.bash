@@ -1,2 +1,0 @@
-python3 run_virtual_physiology_denoise.py
-python3 run_gabor_fitting_denoise.py
