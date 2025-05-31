@@ -7,8 +7,6 @@ import torch.nn as nn
 
 import losses.hierarchical_temporal_prediction as hierarchical_temporal_prediction
 import losses.hierarchical_temporal_prediction_feedforward as hierarchical_temporal_prediction_feedforward
-import losses.hierarchical_temporal_prediction_t5 as hierarchical_temporal_prediction_t5
-import losses.temporal_prediction as temporal_prediction
 
 class NetworkBase (nn.Module):
     def __init__ (self):
@@ -128,5 +126,3 @@ class NetworkBase (nn.Module):
 
 NetworkBase.loss_hierarchical_temporal_prediction = hierarchical_temporal_prediction.hierarchical_temporal_prediction
 NetworkBase.loss_hierarchical_temporal_prediction_feedforward = hierarchical_temporal_prediction_feedforward.hierarchical_temporal_prediction_feedforward
-NetworkBase.loss_temporal_prediction              = temporal_prediction.temporal_prediction
-NetworkBase.loss_hierarchical_temporal_prediction_t5 = hierarchical_temporal_prediction_t5.hierarchical_temporal_prediction_t5
