@@ -28,3 +28,12 @@
      * For each folder in `virtual_physiology`, give the location of the model checkpoint and the location to save the processed virtual physiology 'artefact' (you can give the same virtual physiology path across these files)
      * To run all the virtual physiology procedures, you can use `run.bash`
  5. Analyze the trained models using the `analysis` folder. This should be as easy as providing the relevant model, virtual physiology and dataset paths where indicated in the notebooks
+
+## Data
+
+The dataset required to reproduce the analyses in the manuscript is hosted on Zenodo across three parts:
+
+  1. Dataset part 0: https://zenodo.org/records/18471188?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjcwOWUzNzNkLTgzMTItNDU4Ny05Mzk4LWNlMzE1ZjIxZDk0MiIsImRhdGEiOnt9LCJyYW5kb20iOiJlOWM3ZTA1NTQ2M2M0MzdjMTdiNDFiNzc1NmQxZTQxZSJ9.6ElZqa4E_iiMI8JaWrzuGq2cr9JPDfbm75MWHb7oA5lUi9mnXyhWSZqrozPn68RF92R82zzcCQORnzuY-k1N3Q
+  2. Dataset part 1: https://zenodo.org/records/18472046?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjNjZTM1NjY3LTE1ZjUtNGM3Yy1hZjA3LTdiMzkzZjRjZjRkMCIsImRhdGEiOnt9LCJyYW5kb20iOiI1ZTY1ODQ3OTgyZGEyOGE2ZTg4YjU1N2UyMTFhYWFhNSJ9.E15pgweqEHRsIlFe4geYm2Dm2xmkNa6dXzhjixnNopfvpKtgeLDfhFZZ9AAb0yWPM3Oijt5RqpGwIn01cL3big
+  3. Dataset part 2: https://zenodo.org/records/18472252?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjY0NTIzM2ZmLWNkM2YtNGFkMC05ZjBhLTkyZDI2OTQzNTVlMCIsImRhdGEiOnt9LCJyYW5kb20iOiIxNjAyZmVmN2NhZmY2MTM4Njk4YmZhM2I5NTNmYmFhNiJ9.OG7qjHpG_oPmnDjOtTGfL4xn99MNMro_sBqvlrCFdXknJxKL3xAzZ_i8bDtoTXV7NZHZxYDrAAgOAutYKoLTlQ
+
